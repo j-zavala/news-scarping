@@ -1,0 +1,28 @@
+{
+  "name": "news-scraping",
+  "version": "1.0.0",
+  "description": "A web app that lets users view and leave comments on the latest news. Instead of actually writing any articles; instead, this app uses Mongoose and Cheerio to scrape news 🗞 from another site.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-zavala/news-scraping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-zavala/news-scraping/issues"
+  },
+  "homepage": "https://github.com/j-zavala/news-scraping#readme"
+}
